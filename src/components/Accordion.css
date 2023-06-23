@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background: linear-gradient(180deg, #7B0000 0%, #121212 100%);
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 1rem;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 1rem;
+  }
+}
+
+}
+
+.accordion {
+  width: 100%;
+  max-width: 700px;
+  background: #94000000;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0,0,0,0.5); */
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 10px 10px 0px;
+}
+
+
+.item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+  border-top: 1px solid rgba(255, 255, 255, 0.61);
+  cursor: pointer;
+}
+
+
+span {
+  margin: 20px 10px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  span {
+    height: 20px;
+    width: 20px;
+    margin: 30px 0px;
+  }
+}
+
+.content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0.1);
+}
+
+.content-show {
+
+  /* padding: 10px; */
+  max-height: auto;
+  background: rgba(194, 26, 26, 0.1);
+  /* border-radius: 10px; */
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  /* transition: transform 0.5s ease-in-out; */
+  /* transform: scale(1.02); */
+  border: none;
+  /* margin: ; */
+  border-radius: 10px;
+  padding: 1rem;
+  box-sixing: border-box;
+  /* max-height: 9999px; */
+  margin-bottom: 20px;
+  transition: all 0.5s cubic-bezier(0, 1, 0.1);
+}
