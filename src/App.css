@@ -1,12 +1,15 @@
 body{
   padding: 0;
   margin: 0;
+  background-color: #7B0000;
 }
-*{
+/* *{
   margin: 0;
   padding: 0;
   background-color: black;
-}
+} */
 .wrapper{
   margin: 0 auto;
 }
+
+
