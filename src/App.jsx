@@ -4,6 +4,7 @@ import {OrbitControls,useGLTF,useAnimations} from "@react-three/drei";
 import './App.css';
 import Scene from "./Scene";
 import Navbar from './components/navBar/nav'
+import AboutPage from "./components/about/AboutPage";
 
 export default function App() {
   return (
@@ -12,7 +13,9 @@ export default function App() {
       {/* <Canvas shadows={true} camera={{fov:100,position:[-1,1,4]}}> */}
         {/* <Scene/> */}
       {/* </Canvas> */}
-      <Navbar currentPage="1" />
+      <Navbar currentPage="2" />
+      <AboutPage/>
+
     </div>
   );
 }

@@ -1,9 +1,5 @@
-import React from 'react';
-import './App.css';
-import backButton from './Back Button.png';
-import forwardButton from './Forward Button.png';
-// import bgImg from './BGIMG';
-
+import backButton from "../../../src/assets/Back Button.png"
+import forwardButton from "../../../src/assets/Forward Button.png"
 const AboutPage = () => {
 
     const blackBackgroundStyle = {
@@ -50,14 +46,13 @@ const AboutPage = () => {
 
     return (
         <>
-
             <div className="App" style={blackBackgroundStyle}>
                 <div className='about' style={aboutStyle}>
-                    <div style={{display: "flex", justifyContent: "space-between", alignItems:"center"}}>
-                        <p style={{color: 'white', letterSpacing: "5px", marginBottom:"5px", fontWeight: 'bold' }}>CY<span style={{color:"red", fontWeight: 'bold'}}>S</span>COM</p>
-                    <div style={pageno}>
+                    <div style={{display: "flex", justifyContent: "space-between", alignItems:"center", marginTop:"100px"}}>
+                        {/* <p style={{color: 'white', letterSpacing: "5px", marginBottom:"5px", fontWeight: 'bold' }}>CY<span style={{color:"red", fontWeight: 'bold'}}>S</span>COM</p> */}
+                    {/* <div style={pageno}>
                         <p><span style={{textDecoration:'underline'}}>02</span><span style={{alignItems:"start", fontSize: 24, position: 'relative', top: -16}}> / 04</span></p>
-                    </div>
+                    </div> */}
                     </div>
                     <div >               
                         <p style={headStyle}>About Event</p>
@@ -67,8 +62,8 @@ const AboutPage = () => {
                         <p style={textStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div style={{position: 'relative', width: '93%', height: 90,}}><img src={backButton} style={{position: 'absolute', width: '45px', height: '45px', bottom: 0, right: 0}} /></div>
-                <div style={{position: 'relative', width: '99%', height: 90,}}><img src={forwardButton} style={{position: 'absolute', width: '70px', height: '70px', bottom: 0, right: 0}} /></div>
+                {/* <div style={{position: 'relative', width: '93%', height: 90,}}><img src={backButton} style={{position: 'absolute', width: '45px', height: '45px', bottom: 0, right: 0}} /></div> */}
+                {/* <div style={{position: 'relative', width: '99%', height: 90,}}><img src={forwardButton} style={{position: 'absolute', width: '70px', height: '70px', bottom: 0, right: 0}} /></div> */}
 
             </div>           
         </>
