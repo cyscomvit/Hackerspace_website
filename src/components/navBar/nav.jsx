@@ -23,17 +23,7 @@ const Navbar = (props) => {
       </div>
     </div>
 
-    <div className="nav_button">
-
-    <span className="nav_backwardButton">
-    <img src={backwardIcon} alt="Backward Icon" className="navbar_buttonIconback" />
-    </span>
-
-    <span className="nav_forwardButton">
-      <img src={forwardIcon} alt="Forward Icon" className="navbar_buttonIconforward" />
-    </span>
-
-    </div>
+    
     </div>
   );
 };

@@ -66,7 +66,7 @@ const Accordion = () => {
             <div className="item" key={i}>
               <div className="title" onClick={() => FunctionWrapper(i)}>
                 <h2>{item.Question}</h2>
-                <span>{selected === i ? "-" : ">"}</span>
+                <span className="circle">{selected === i ? "-" : ">"}</span>
               </div>
               <div className={selected === i ? "content-show" : "content"}>
                 <p>{item.Answer}</p>
