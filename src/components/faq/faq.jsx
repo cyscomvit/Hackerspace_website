@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Accordion.css";
+import "./faq.css";
 
 const Data = [
   {

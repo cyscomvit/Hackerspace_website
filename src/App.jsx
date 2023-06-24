@@ -5,6 +5,7 @@ import './App.css';
 import Scene from "./Scene";
 import Navbar from './components/navBar/nav'
 import Speaker from './components/speaker/Speakers'
+import Faq from './components/faq/faq'
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
         {/* <Scene/> */}
       {/* </Canvas> */}
       {/* <Navbar currentPage="1" /> */}
-      <Speaker />
+      {/* <Speaker /> */}
+      <Faq />
     </div>
   );
 }
