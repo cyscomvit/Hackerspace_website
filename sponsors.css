@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#logo {
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1rem;
+    line-height: 140%;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+#logo span {
+    color: #FF4A4A;
+}
+
+.sponsors {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#title {
+    font-family: 'MrRobot';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    color: #FC0101;
+
+    margin-bottom: 2rem;
+    margin-top: 20vh;
+}
+
+.sponsors p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.4235px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    width: 33.33vw;
+    margin-bottom: 5rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.box {
+    height: 20vh;
+    width: 25vw;
+
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(32px);
+    border-radius: 33.7748px;
+}
+
+
+@media(max-width: 1440px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin-bottom: 2rem;
+        width: 50vw;
+    }
+
+
+    .sponsors p {
+        width: 80vw;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .box {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        position: absolute;
+        top: 70px;
+    }
+
+}
+
+@media (min-width: 500px) {
+    #logo {
+        position: absolute;
+        left: 100px;
+        top: 70px;
+    }
+}
