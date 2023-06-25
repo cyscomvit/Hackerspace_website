@@ -29,11 +29,11 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<><Navbar currentPage='1' /><Footer urlb='/' urlf='/about'/></>} />
-          <Route path='about' element={<><Navbar currentPage='2' /><About /><Footer urlb='/' urlf='/speaker' /></>} />
-          <Route path='speaker' element={<><Navbar currentPage='3' /><Speaker /><Footer urlb='/about' urlf='/sponsors'/></>} />
-          <Route path='sponsors' element={<><Navbar currentPage='4' /><Sponsors /><Footer urlb='/speaker' urlf='/faq'/></>} />
-          <Route path='faq' element={<><Navbar currentPage='5' /><Faq /><Footer urlb='/sponsors' urlf='faq' /></>} />
-          <Route path='clock' element={<Clock />} />
+          <Route path='/about' element={<><Navbar currentPage='2' /><About /><Footer urlb='/' urlf='/speaker' /></>} />
+          <Route path='/speaker' element={<><Navbar currentPage='3' /><Speaker /><Footer urlb='/about' urlf='/sponsors'/></>} />
+          <Route path='/sponsors' element={<><Navbar currentPage='4' /><Sponsors /><Footer urlb='/speaker' urlf='/faq'/></>} />
+          <Route path='/faq' element={<><Navbar currentPage='5' /><Faq /><Footer urlb='/sponsors' urlf='faq' /></>} />
+          <Route path='/clock' element={<Clock />} />
         </Routes>
       </BrowserRouter>
 
