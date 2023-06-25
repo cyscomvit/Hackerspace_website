@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './Footer.css';
 import backwardIcon from './Vector 522.png'; // Replace with the actual path to your backward icon image
 import forwardIcon from './Vector 521.png'; // Replace with the actual path to your forward icon image
 
